@@ -1,0 +1,21 @@
+.header-container {
+  min-height: 81vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 80px;
+  background-image: url("../../assets/map.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.main-text {
+  font-size: 44px;
+  letter-spacing: 4px;
+}
+
+.sub-text {
+  color: #949494;
+  line-height: 28px;
+}

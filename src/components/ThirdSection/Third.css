@@ -1,0 +1,29 @@
+.third-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.row {
+  display: flex;
+  width: 85vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 50%;
+}
+
+.col > h2 {
+  border-left: 3px solid #4931fc;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+.col > p {
+  color: #797979;
+  line-height: 30px;
+}

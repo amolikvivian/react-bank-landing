@@ -1,0 +1,27 @@
+.fourth-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 80px;
+  background-color: #1f1f1f;
+}
+
+.row-fourth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex: 100%;
+  color: #d3d3d3;
+}
+
+.col-fourth {
+  display: flex;
+  max-width: 350px;
+}
+.col-fourth > img {
+  margin-right: 14px;
+}
+.caption-text {
+  text-align: left;
+}

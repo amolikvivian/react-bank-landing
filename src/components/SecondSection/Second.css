@@ -1,0 +1,25 @@
+.second-container {
+  background-color: #4931fc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 80px;
+}
+
+.text-container > div > p {
+  font-size: 1.1rem;
+}
+
+.white-text {
+  color: #eeeeee;
+}
+
+.white-grey-text {
+  color: #dadada;
+}

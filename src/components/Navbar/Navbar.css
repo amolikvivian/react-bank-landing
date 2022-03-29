@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  text-decoration: none;
+  color: #161616;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 6px;
+  font-size: 2rem;
+  padding: 16px 0;
+  margin-right: 4rem;
+}
+
+.menu-options > span {
+  margin-left: 2rem;
+  cursor: pointer;
+  font-size: 16px;
+}
