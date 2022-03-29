@@ -27,3 +27,15 @@
   color: #797979;
   line-height: 30px;
 }
+
+@media screen and (max-width: 700px) {
+  .third-container {
+    justify-content: space-evenly;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col > img {
+    width: 200px;
+  }
+}

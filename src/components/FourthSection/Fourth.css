@@ -25,3 +25,16 @@
 .caption-text {
   text-align: left;
 }
+
+@media screen and (max-width: 700px) {
+  .fourth-container {
+    flex-direction: column;
+  }
+  .row-fourth {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .col-fourth > img {
+    width: 50px;
+  }
+}

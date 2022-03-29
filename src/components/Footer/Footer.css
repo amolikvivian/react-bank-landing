@@ -40,6 +40,10 @@ footer {
   line-height: 32px;
 }
 
+.product-list, .resource-list, .contact {
+  padding: 0 20px;
+}
+
 .product-list > p, .resource-list > p, .contact > p {
   color: #ededed;
   font-size: 1.2rem;
@@ -54,4 +58,18 @@ footer {
 
 .contact > span {
   color: #949494;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-col > p {
+    max-width: 100%;
+  }
+  
+  .right-col {
+    padding: 0;
+    text-align: left;
+  }
 }
