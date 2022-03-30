@@ -63,13 +63,30 @@ footer {
 @media screen and (max-width: 700px) {
   .footer-row {
     flex-direction: column;
+    padding: 60px 15px;
+  }
+  .footer-col > h1 {
+    font-size: 1.1rem;
   }
   .footer-col > p {
-    max-width: 100%;
+    max-width: 90%;
+    font-size: 0.8rem;
   }
-  
+  .product-list, .resource-list, .contact {
+    margin-top: 20px; 
+    padding: 0px;
+  }
+  .product-list > p, .resource-list > p, .contact > p {
+    font-size: 0.9rem;
+  }
+  .product-list > li, .resource-list > li, .contact > span {
+    font-size: 0.8rem;
+  }
   .right-col {
     padding: 0;
     text-align: left;
+  }
+  .copyright-container > span{
+    font-size: 0.7rem;
   }
 }
